@@ -4,7 +4,7 @@ from twilio.rest import Client
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 api_key = "e05abdf5e332a72e08f9975707c9a1af"
 account_sid = "ACfbb246d73a1803efb706304105188b45"
-auth_token = "c0ddcb3e61f5c055a7c1338bad8c569f"
+auth_token = "c0ddcb3e61f5c055a7c1338bad8c569f"  #Has Since been Changed by Twilio
 
 weather_params = {
     "lat": 23.259933,
