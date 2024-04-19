@@ -45,17 +45,17 @@ else:
     message = client.messages \
         .create(
         body="Not Finna Rain Innit ☔️",
-        from_="+16562315328",
-        to="+917909705494"
+        from_="+165623153##",
+        to="+917909705###"
     )
     print(message.status)
 
 # The required Commands - 
 
-# ~ $ export OWM_API_KEY=e05abdf5e332a72e08f9975707c9a1af
+# ~ $ export OWM_API_KEY=e05abdf5e332a72e08f9975707c9a1##
 # ~ $ python3 main.py
 # queued
-# ~ $ export AUTH_TOKEN=c0ddcb3e61f5c055a7c1338bad8c569f
+# ~ $ export AUTH_TOKEN=c0ddcb3e61f5c055a7c1338bad8c5## #been changed
 # ~ $ python3 main.py
 # queued
 
