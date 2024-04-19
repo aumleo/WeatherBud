@@ -2,7 +2,7 @@ import requests
 from twilio.rest import Client
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
-api_key = "e05abdf5e332a72e08f9975707c9a1af"
+api_key = "e05abdf5e332a72e08f9975707c9a1##"
 account_sid = "ACfbb246d73a1803efb706304105188b45"
 auth_token = "c0ddcb3e61f5c055a7c1338bad8c569f"  #Has Since been Changed by Twilio
 
@@ -29,8 +29,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="Finna Rain Innit ☔️",
-        from_="+16562315328",
-        to="+917909705494"
+        from_="+16562315###",
+        to="+917909705###"
     )
     print(message.status)
 
