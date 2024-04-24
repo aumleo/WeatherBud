@@ -1,4 +1,5 @@
 *WeatherBud*
+
 This is a Python application that checks the weather forecast for Bhopal, India, and sends an automated text message to a specified phone number, informing the user whether it will rain or not on that day.
 
 Prerequisites - Before running this application, make sure you have the following:
