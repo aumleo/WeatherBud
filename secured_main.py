@@ -36,8 +36,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="Finna Rain Innit ☔️",
-        from_="+16562315328",
-        to="+917909705494"
+        from_="+165623153##",
+        to="+917909705###"
     )
     print(message.status)
 else:
